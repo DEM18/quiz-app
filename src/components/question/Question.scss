@@ -1,0 +1,22 @@
+.question-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__button {
+        background-color: #f1c7c7;
+        height: 40px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+}
+
+.question-form__label--question {
+    font-size: 35px;
+    display: flex;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    padding: 20px;
+}
